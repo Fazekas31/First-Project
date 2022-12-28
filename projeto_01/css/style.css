@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open sans;
+}
+@font-face{
+    src:url(/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: "open sans";
+}
+.center{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    
+    width: 100%;
+    padding: 0 2%;
+    height: 70px;
+    background-color: rgb(179, 153, 8);
+}
+.header img{
+    margin: 20px;
+    width: 60px;
+}
+.banner{
+    
+    width: 100%;
+    padding: 0 2%;
+    height: 600px;;
+    background-image: url('/imagens/Free-DownloadBeer-Background.jpg');
+    background-position: center;
+    background-size: cover;   
+}
+.form{
+    padding: 10px;
+    width: 400px;
+    height: calc(100% + 30px);
+    position: relative;
+    background-color: rgb(250, 246, 246);
+    top: -15px;
+    border: 10px solid rgb(105, 86, 8);
+    border-radius: 10px;
+    float: right;
+}
+.container-list{
+    
+    padding-top: 1%;
+    font-size: 25px;
+}
+.form h2{
+    font-weight: normal;
+    font-size: 20px;
+}
+.input-container{
+    margin-top: 20px;
+}
+.input-container span,.form p{
+    display: inline-block;
+    width: 100%;
+    color: rgb(57, 57, 8);
+    font-size: 17px;
+    font-weight: bold;
+}
+.form p{
+    margin: 20px 0;
+}
+.input-container input[type=text]{
+    width: 350px;
+    height: 50px;
+    border: 2px solid rgb(105, 86, 8);
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+.form .input-container{
+    text-align: center;
+}
+.form input[type=submit]{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:  rgb(179, 153, 8);
+    width: 280px;
+    height: 56px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.form input[type=submit]:hover{
+    background-color: rgb(140, 120, 8);
+}
+
+.container-list{
+    padding: 30px 0;
+    display: inline-block;
+    margin-top: 120px;
+    float: none;
+    width: 500px;
+    height: 278px;
+    opacity: 0.8;
+    background-color: rgb(140, 120, 8);
+ 
+}
+.container-list ul{
+    list-style-position: inside;
+}
+.container-list li{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+}
+.container-2{
+  
+    padding: 80px 0;
+    text-align: center;
+    background-color:rgb(140, 120, 8) ;
+}
+.container-2 h2{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+}
+.container-2 p{
+    font-size: 25px;
+    padding: 5px;
+    text-align: left;
+}
+.container-2  img{
+    width: 400px;
+    
+}
+.arrow img{
+    width: 70px;
+    height: 70px;
+    margin-top: 50px;
+    position: relative;
+    
+}
+.section-1{
+    
+    padding: 90px 2%;
+    background-color: rgb(140, 120, 8);
+}
+.section-1 h2{
+    text-align: center;
+}
+.container-2 p{
+    width: 100%;
+    margin: 15px 0;
+    display: inline-block;
+    position: justify;
+    text-align: left;
+}
+.container-section{
+    margin-top: 40px;
+    background-color:rgb(140, 120, 8);
+}
+.container-section{
+    
+    text-align: center;
+    
+
+}
+.container-single{       
+    float: left;
+    width: 33.333%;
+    padding: 30px;
+   
+}
+.container-single img{
+    width: 100px;
+}
+.container-section p{
+    padding: 10px 10px;
+    display: inline-block;
+    text-align: center;
+ 
+  
+}
+.footer{
+   width: 100%;
+    background-color:rgb(140, 120, 8) ;
+    clear: both;
+    border-top: 4px solid rgb(5, 5, 5);
+    padding: 30px 0;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.clear{
+    clear: both;
+}
+
+@media screen and (max-width: 1024px){
+    .header{
+        height: auto;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        
+    }
+    .header img{
+        margin: 0;
+    }
+    .banner{
+    
+        width: 100%;
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+          
+    }
+    .container-list{
+        
+        float: left;
+        width: 60%;
+        max-width: 500px;
+        height: auto;
+        
+    }
+    .container-list li{
+        text-align: justify;
+        
+    }
+    .form{
+        margin-top: 30px;
+        max-width: 400px;
+        padding: 10px;
+        width: 40%;
+        height: 85%;
+        display: inline-block;
+        top: 0;
+        float: right;
+    }
+    .input-container input[type=text]{
+        width: 100%;
+        height: 50px;
+        
+    
+    }
+    
+    .form input[type=submit]{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        background-color:  rgb(179, 153, 8);
+        width: 100%;
+        height: 56px;
+        border-radius: 10px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    
+}
+@media screen and (max-width: 768px){
+    .container-2 p{
+        padding-left: 4%;
+        padding-right: 4%;
+        
+    }
+    .container-list{
+        float: none;
+        display: inline-block;
+        margin-top: 0;
+        width: 100%;
+    }
+    .form{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .container-single{       
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 600px;
+        padding: 30px 0;
+        background-color: white;
+        
+       
+    }
+}
